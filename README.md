@@ -18,7 +18,7 @@ on: [push, pull_request]
 jobs:
   build:
 
-    runs-on: ubuntu-xenial
+    runs-on: ubuntu-latest
 
     steps:
     # Important: This sets up your GITHUB_WORKSPACE environment variable
