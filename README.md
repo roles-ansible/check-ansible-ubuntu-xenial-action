@@ -5,6 +5,10 @@
 =======================
 This action allows you to test your ansible role or your playbook in a Docker Container with ``ubuntu:xenial``.
 
+| :warning: Ubuntu Xenial is very old [Ubuntu RELEASES](https://wiki.ubuntu.com/Releases). :warning: |
+|---|
+| Since the Ubunbtu version used here is very old, this github action will also no longer be actively maintained.<br/><br/>Of course we will continue to review your pull requests here. But we are currently not trying to fix known issues like the docker image used here not being fully available anymore.|
+
 ## Usage
 To use the action simply create an ``ansible-ubuntu-xenial.yml`` *(or choose custom ``*.yml`` name)* in the ``.github/workflows/`` directory.
 
